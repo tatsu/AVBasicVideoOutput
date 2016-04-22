@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B92C1C1CCA466E005923FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B92C1B1CCA466E005923FC /* AppDelegate.swift */; };
 		EF1D1FDE1627784E0030141F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1D1FDD1627784E0030141F /* UIKit.framework */; };
 		EF1D1FE01627784E0030141F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1D1FDF1627784E0030141F /* Foundation.framework */; };
 		EF1D1FE21627784E0030141F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1D1FE11627784E0030141F /* CoreGraphics.framework */; };
@@ -20,24 +21,23 @@
 		EF7A66F6164440E000C58381 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A66F2164440E000C58381 /* Default-568h@2x.png */; };
 		EF7A66F7164440E000C58381 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A66F3164440E000C58381 /* Default.png */; };
 		EF7A66F8164440E000C58381 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7A66F4164440E000C58381 /* Default@2x.png */; };
-		EF7A66FA164440EA00C58381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7A66F9164440EA00C58381 /* main.m */; };
 		EF7A6701164440F800C58381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF7A66FB164440F800C58381 /* InfoPlist.strings */; };
 		EF7A6702164440F800C58381 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7A66FD164440F800C58381 /* MainStoryboard_iPad.storyboard */; };
 		EF7A6703164440F800C58381 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7A66FF164440F800C58381 /* MainStoryboard_iPhone.storyboard */; };
 		F44B58101631E9BE0096A3CE /* APLEAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA792D71628D8D600C5AFA0 /* APLEAGLView.m */; };
 		F44B58111631E9CA0096A3CE /* APLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA792E21628E1A600C5AFA0 /* APLViewController.m */; };
-		F44B58121631E9CC0096A3CE /* APLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCF259C162DD1A700B3328D /* APLAppDelegate.m */; };
 		F46E12E41631C78A00C7C8F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46E12E31631C78A00C7C8F1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17B92C1A1CCA466E005923FC /* AVBasicVideoOutput-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVBasicVideoOutput-Bridging-Header.h"; sourceTree = "<group>"; };
+		17B92C1B1CCA466E005923FC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28D8529516B880200065C6E1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EF1D1FD91627784E0030141F /* AVBasicVideoOutput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVBasicVideoOutput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1D1FDD1627784E0030141F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF1D1FDF1627784E0030141F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF1D1FE11627784E0030141F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EF1D1FE51627784E0030141F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		EF1D1FF01627784E0030141F /* APLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = APLAppDelegate.h; path = AVBasicVideoOutput/APLAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		EF1D1FFF1627784E0030141F /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = AVBasicVideoOutput/Shaders/Shader.fsh; sourceTree = "<group>"; usesTabs = 1; };
 		EF1D20011627784E0030141F /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = AVBasicVideoOutput/Shaders/Shader.vsh; sourceTree = "<group>"; };
 		EF1D200B16277ADD0030141F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -49,7 +49,6 @@
 		EF7A66F2164440E000C58381 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "AVBasicVideoOutput/Default-568h@2x.png"; sourceTree = "<group>"; };
 		EF7A66F3164440E000C58381 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = AVBasicVideoOutput/Default.png; sourceTree = "<group>"; };
 		EF7A66F4164440E000C58381 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "AVBasicVideoOutput/Default@2x.png"; sourceTree = "<group>"; };
-		EF7A66F9164440EA00C58381 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AVBasicVideoOutput/main.m; sourceTree = "<group>"; };
 		EF7A66FC164440F800C58381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = AVBasicVideoOutput/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF7A66FE164440F800C58381 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = AVBasicVideoOutput/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		EF7A6700164440F800C58381 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = AVBasicVideoOutput/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
@@ -57,7 +56,6 @@
 		EFA792D71628D8D600C5AFA0 /* APLEAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLEAGLView.m; path = AVBasicVideoOutput/APLEAGLView.m; sourceTree = "<group>"; };
 		EFA792E11628E1A600C5AFA0 /* APLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLViewController.h; path = AVBasicVideoOutput/APLViewController.h; sourceTree = "<group>"; };
 		EFA792E21628E1A600C5AFA0 /* APLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLViewController.m; path = AVBasicVideoOutput/APLViewController.m; sourceTree = "<group>"; };
-		EFCF259C162DD1A700B3328D /* APLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLAppDelegate.m; path = AVBasicVideoOutput/APLAppDelegate.m; sourceTree = "<group>"; };
 		F46E12E31631C78A00C7C8F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -118,8 +116,6 @@
 		EF1D1FE71627784E0030141F /* AVBasicVideoOutput */ = {
 			isa = PBXGroup;
 			children = (
-				EF1D1FF01627784E0030141F /* APLAppDelegate.h */,
-				EFCF259C162DD1A700B3328D /* APLAppDelegate.m */,
 				EFA792D61628D8D600C5AFA0 /* APLEAGLView.h */,
 				EFA792D71628D8D600C5AFA0 /* APLEAGLView.m */,
 				EFA792E11628E1A600C5AFA0 /* APLViewController.h */,
@@ -127,6 +123,8 @@
 				EF1D20011627784E0030141F /* Shader.vsh */,
 				EF1D1FFF1627784E0030141F /* Shader.fsh */,
 				EF1D1FE81627784E0030141F /* Supporting Files */,
+				17B92C1B1CCA466E005923FC /* AppDelegate.swift */,
+				17B92C1A1CCA466E005923FC /* AVBasicVideoOutput-Bridging-Header.h */,
 			);
 			name = AVBasicVideoOutput;
 			sourceTree = "<group>";
@@ -137,7 +135,6 @@
 				EF7A66FB164440F800C58381 /* InfoPlist.strings */,
 				EF7A66FD164440F800C58381 /* MainStoryboard_iPad.storyboard */,
 				EF7A66FF164440F800C58381 /* MainStoryboard_iPhone.storyboard */,
-				EF7A66F9164440EA00C58381 /* main.m */,
 				EF7A66F0164440E000C58381 /* AVBasicVideoOutput-Info.plist */,
 				EF7A66F1164440E000C58381 /* AVBasicVideoOutput-Prefix.pch */,
 				EF7A66F2164440E000C58381 /* Default-568h@2x.png */,
@@ -174,6 +171,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AVVA;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Apple;
 			};
@@ -219,8 +217,7 @@
 			files = (
 				F44B58101631E9BE0096A3CE /* APLEAGLView.m in Sources */,
 				F44B58111631E9CA0096A3CE /* APLViewController.m in Sources */,
-				F44B58121631E9CC0096A3CE /* APLAppDelegate.m in Sources */,
-				EF7A66FA164440EA00C58381 /* main.m in Sources */,
+				17B92C1C1CCA466E005923FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,16 +307,20 @@
 		EF1D20091627784E0030141F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVBasicVideoOutput/AVBasicVideoOutput-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AVBasicVideoOutput/AVBasicVideoOutput-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tatsu.apple.AVBasicVideoOutput;
 				PRODUCT_NAME = AVBasicVideoOutput;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AVBasicVideoOutput-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -327,16 +328,19 @@
 		EF1D200A1627784E0030141F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVBasicVideoOutput/AVBasicVideoOutput-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/AVBasicVideoOutput/AVBasicVideoOutput-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tatsu.apple.AVBasicVideoOutput;
 				PRODUCT_NAME = AVBasicVideoOutput;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AVBasicVideoOutput-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
